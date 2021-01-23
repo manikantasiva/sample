@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+.parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.child-1 {
+    background-color: linen;
+    width: 25%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid orangered;
+    text-align: center;
+    box-shadow: 0px 8px 8px -3.8px green;
+    /*height: 480px;  */
+}
+
+.child-2 {
+    background-color: lightblue;
+    width: 65%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid orangered;
+    text-align: center;
+    box-shadow: 0px 8px 8px -3.8px green;
+}
+
+
+/* .child-3 {
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid orangered;
+    text-align: center;
+    box-shadow: 0px 8px 8px -3.8px green;
+} */
+
+.child-1 a {
+    display: block;
+    text-decoration: none;
+    color: navy;
+    /* text-decoration-style: wavy;  */
+}
+
+.child-1 h2 {
+    color: rgb(66, 16, 114);
+    text-shadow: 3px 3px 3px yellow;
+}
+
+.child-1 a:hover {
+    color: #5eff00;
+}
+
+.child-2 h1 {
+    color: rgb(30, 8, 51);
+    text-shadow: 3px 3px 3px yellow;
+}
+
+.child-1 img {
+    width: 70%;
+}
+
+.s-img img {
+    width: 6%;
+    margin: 1%;
+    padding: 1%;
+}
+
+.s-img p {
+    width: 65%;
+    margin: 1%;
+    padding: 1%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .child-1,
+    .child-2 {
+        width: 90%;
+    }
+}
