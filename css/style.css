@@ -78,6 +78,10 @@
     text-align: center;
 }
 
+table {
+    width: 100%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .child-1,
     .child-2 {
